@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: #e5dfead0;
+  padding: 30px;
 }
 
 .App-logo {
@@ -35,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.root{
+  padding: 50px;
+}
+
+input,
+button {
+  padding: 10px 8px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+
+.clocks{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clock {
+  border: 1px solid #ccc;
+  padding: 42px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.clock button {
+  position: absolute;
+  top: 0;
+  right: -14px;
+}
+
+.time {
+  font-size: 24px;
 }
